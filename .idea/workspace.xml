@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68079e3b-f4ba-403d-9dc2-f96cccdb37af" name="Default Changelist" comment="" />
+    <list default="true" id="68079e3b-f4ba-403d-9dc2-f96cccdb37af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/achievement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/notice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasource/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/achievement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/comment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/notice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/subcomment.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/achievement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/achievement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/notice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/post.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/tag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +40,16 @@
     </option>
   </component>
   <component name="GOROOT" url="file://G:/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1m6nqsf9yITPaTRk6sq5FTcylaB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,6 +88,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
