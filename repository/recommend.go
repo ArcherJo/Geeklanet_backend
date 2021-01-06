@@ -2,6 +2,6 @@ package repository
 
 import "Geeklanet/datasource"
 
-type TagRepository struct {
+type RecommendRepository struct {
 	T datasource.Table
 }

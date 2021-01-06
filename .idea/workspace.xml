@@ -2,30 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68079e3b-f4ba-403d-9dc2-f96cccdb37af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/achievement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/notice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasource/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/achievement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/comment.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/notice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/subcomment.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/achievement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repository/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/achievement.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/notice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/post.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/recommend.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository/recommend.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/recommend.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/achievement.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/achievement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/notice.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/notice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/achievement.go" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/datasource.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/comment.go" beforeDir="false" afterPath="$PROJECT_DIR$/datasource/mgoDB.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/notice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/post.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/subcomment.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/tag.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasource/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/achievement.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/achievement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/comment.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/comment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/notice.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/notice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/subcomment.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/subcomment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/achievement.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/achievement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/comment.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/comment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/notice.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/notice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/subcomment.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/subcomment.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/repository/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/achievement.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/achievement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/notice.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/notice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/post.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/post.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/tag.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/tag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +84,8 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="go build Geeklanet" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -99,8 +117,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/datasource/mgoDB.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/controller/user.go</url>
+          <line>112</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

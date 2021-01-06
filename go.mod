@@ -10,6 +10,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/tdewolff/parse/v2 v2.5.6 // indirect
 	github.com/vmihailenco/msgpack/v5 v5.1.1 // indirect
+	go.mongodb.org/mongo-driver v1.4.4
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
 	golang.org/x/sys v0.0.0-20201223074533-0d417f636930 // indirect
